@@ -29,31 +29,31 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| distanceToCity |  |  | 
-| getX |  |  | 
-| getY |  |  | 
-| toString |  |  | 
+| distanceToCity | T | Cette fonction peut être testée | 
+| getX | D | Fonction getter donc pas besoin d'être testée | 
+| getY | D | Fonction getter donc pas besoin d'être testée | 
+| toString | D | Fonction toString à partir des getter donc pas besoin d'être testée | 
 
 ### Class Tour
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| containsCity  |  |  |
-| getCity  |  |  |
-| getDistance  |  |  |
-| getFitness  |  |  |
-| setCity  |  |  |
-| tourSize  |  |  |
-| toString  |  |  |
+| containsCity  | D | Utilise un arrayList donc pas besoin |
+| getCity  | D | Fonction getter + arrayList donc pas besoin |
+| getDistance  | T | Methode qui peut être testée |
+| getFitness  | D | Fonction getter donc pas besoin |
+| setCity  | D | Fonction setter + arrayList donc pas besoin |
+| tourSize  | D | Fonction getter + arrayList donc pas besoi, |
+| toString  | D | Methode toString donc pas besoin |
 
 ### Class Population
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| getFittest  |  |  |
-| getTour  |  |  |
-| populationSize  |  |  |
-| saveTour  |  |  |
+| getFittest  | T | Methode qui peut etre testée |
+| getTour  | D | Fonction getter + arrayList donc pas besoin |
+| populationSize  | D | utilise arrayLits donc pas besoin |
+| saveTour  | D | utiliser arrayList donc pas besoi, |
 
 ## Functions to test now
 
