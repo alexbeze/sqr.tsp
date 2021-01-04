@@ -1,5 +1,10 @@
 package tsp.lee.jacobson;
 
+/**
+ * @author alexandre bézé
+ * Répresente une ville reperée par ses coordonnées
+ */
+
 public class City {
     int x;
     int y;

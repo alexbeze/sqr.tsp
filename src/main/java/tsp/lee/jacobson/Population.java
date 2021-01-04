@@ -1,5 +1,10 @@
 package tsp.lee.jacobson;
 
+/**
+ * @author alexandre bézé
+ * Permet de créer une population génétique
+ */
+
 public class Population {
 
     // Holds population of tours

@@ -3,6 +3,11 @@ package tsp.lee.jacobson;
 import java.util.ArrayList;
 import java.util.Collections;
 
+/**
+ * @author alexandre bézé
+ * Représente un tour pour le voyageur de commerce avec les différentes fitness
+ */
+
 public class Tour{
 
     // Holds our tour of cities
